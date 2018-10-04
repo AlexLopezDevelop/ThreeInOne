@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC739EC721656F2E00A8ABCE /* FontDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC739EC621656F2E00A8ABCE /* FontDetailViewController.swift */; };
 		AC9BC3212162BB38007368F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9BC3202162BB38007368F2 /* AppDelegate.swift */; };
 		AC9BC3232162BB38007368F2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9BC3222162BB38007368F2 /* FirstViewController.swift */; };
 		AC9BC3252162BB38007368F2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9BC3242162BB38007368F2 /* SecondViewController.swift */; };
 		AC9BC3282162BB38007368F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9BC3262162BB38007368F2 /* Main.storyboard */; };
 		AC9BC32A2162BB39007368F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9BC3292162BB39007368F2 /* Assets.xcassets */; };
 		AC9BC32D2162BB39007368F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9BC32B2162BB39007368F2 /* LaunchScreen.storyboard */; };
+		AC9BC3352162BC1B007368F2 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9BC3342162BC1B007368F2 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC739EC621656F2E00A8ABCE /* FontDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontDetailViewController.swift; sourceTree = "<group>"; };
 		AC9BC31D2162BB38007368F2 /* TreeInOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreeInOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9BC3202162BB38007368F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC9BC3222162BB38007368F2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		AC9BC3292162BB39007368F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC9BC32C2162BB39007368F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC9BC32E2162BB39007368F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC9BC3342162BC1B007368F2 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +61,24 @@
 			isa = PBXGroup;
 			children = (
 				AC9BC3202162BB38007368F2 /* AppDelegate.swift */,
-				AC9BC3222162BB38007368F2 /* FirstViewController.swift */,
-				AC9BC3242162BB38007368F2 /* SecondViewController.swift */,
+				AC9BC3362162BD56007368F2 /* Controllers */,
 				AC9BC3262162BB38007368F2 /* Main.storyboard */,
 				AC9BC3292162BB39007368F2 /* Assets.xcassets */,
 				AC9BC32B2162BB39007368F2 /* LaunchScreen.storyboard */,
 				AC9BC32E2162BB39007368F2 /* Info.plist */,
 			);
 			path = TreeInOne;
+			sourceTree = "<group>";
+		};
+		AC9BC3362162BD56007368F2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AC9BC3222162BB38007368F2 /* FirstViewController.swift */,
+				AC9BC3242162BB38007368F2 /* SecondViewController.swift */,
+				AC9BC3342162BC1B007368F2 /* ThirdViewController.swift */,
+				AC739EC621656F2E00A8ABCE /* FontDetailViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC739EC721656F2E00A8ABCE /* FontDetailViewController.swift in Sources */,
 				AC9BC3252162BB38007368F2 /* SecondViewController.swift in Sources */,
 				AC9BC3212162BB38007368F2 /* AppDelegate.swift in Sources */,
+				AC9BC3352162BC1B007368F2 /* ThirdViewController.swift in Sources */,
 				AC9BC3232162BB38007368F2 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
