@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AC739EC721656F2E00A8ABCE /* FontDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC739EC621656F2E00A8ABCE /* FontDetailViewController.swift */; };
+		AC7743502166BAA4004E7C67 /* QuarterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC77434F2166BAA4004E7C67 /* QuarterViewController.swift */; };
 		AC9BC3212162BB38007368F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9BC3202162BB38007368F2 /* AppDelegate.swift */; };
 		AC9BC3232162BB38007368F2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9BC3222162BB38007368F2 /* FirstViewController.swift */; };
 		AC9BC3252162BB38007368F2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9BC3242162BB38007368F2 /* SecondViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		AC739EC621656F2E00A8ABCE /* FontDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontDetailViewController.swift; sourceTree = "<group>"; };
+		AC77434F2166BAA4004E7C67 /* QuarterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarterViewController.swift; sourceTree = "<group>"; };
 		AC9BC31D2162BB38007368F2 /* TreeInOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreeInOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9BC3202162BB38007368F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC9BC3222162BB38007368F2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -44,7 +46,7 @@
 		AC9BC3142162BB38007368F2 = {
 			isa = PBXGroup;
 			children = (
-				AC9BC31F2162BB38007368F2 /* TreeInOne */,
+				AC9BC31F2162BB38007368F2 /* ThreeInOne */,
 				AC9BC31E2162BB38007368F2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,7 +59,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AC9BC31F2162BB38007368F2 /* TreeInOne */ = {
+		AC9BC31F2162BB38007368F2 /* ThreeInOne */ = {
 			isa = PBXGroup;
 			children = (
 				AC9BC3202162BB38007368F2 /* AppDelegate.swift */,
@@ -67,7 +69,7 @@
 				AC9BC32B2162BB39007368F2 /* LaunchScreen.storyboard */,
 				AC9BC32E2162BB39007368F2 /* Info.plist */,
 			);
-			path = TreeInOne;
+			path = ThreeInOne;
 			sourceTree = "<group>";
 		};
 		AC9BC3362162BD56007368F2 /* Controllers */ = {
@@ -76,6 +78,7 @@
 				AC9BC3222162BB38007368F2 /* FirstViewController.swift */,
 				AC9BC3242162BB38007368F2 /* SecondViewController.swift */,
 				AC9BC3342162BC1B007368F2 /* ThirdViewController.swift */,
+				AC77434F2166BAA4004E7C67 /* QuarterViewController.swift */,
 				AC739EC621656F2E00A8ABCE /* FontDetailViewController.swift */,
 			);
 			path = Controllers;
@@ -116,7 +119,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AC9BC3182162BB38007368F2 /* Build configuration list for PBXProject "TreeInOne" */;
+			buildConfigurationList = AC9BC3182162BB38007368F2 /* Build configuration list for PBXProject "ThreeInOne" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -157,6 +160,7 @@
 				AC9BC3212162BB38007368F2 /* AppDelegate.swift in Sources */,
 				AC9BC3352162BC1B007368F2 /* ThirdViewController.swift in Sources */,
 				AC9BC3232162BB38007368F2 /* FirstViewController.swift in Sources */,
+				AC7743502166BAA4004E7C67 /* QuarterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,12 +308,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LX4P693W2D;
-				INFOPLIST_FILE = TreeInOne/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ThreeInOne/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tk.cristianlopez.TreeInOne;
+				PRODUCT_BUNDLE_IDENTIFIER = tk.cristianlopez.ThreeInOne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,12 +326,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LX4P693W2D;
-				INFOPLIST_FILE = TreeInOne/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ThreeInOne/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tk.cristianlopez.TreeInOne;
+				PRODUCT_BUNDLE_IDENTIFIER = tk.cristianlopez.ThreeInOne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -337,7 +341,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AC9BC3182162BB38007368F2 /* Build configuration list for PBXProject "TreeInOne" */ = {
+		AC9BC3182162BB38007368F2 /* Build configuration list for PBXProject "ThreeInOne" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AC9BC32F2162BB39007368F2 /* Debug */,
